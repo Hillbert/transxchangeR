@@ -2,14 +2,12 @@
 % Please edit documentation in R/transxchange_xml_load.R
 \name{transxchange_xml_load}
 \alias{transxchange_xml_load}
-\title{A basic function to load an xml file and split it into
-the component lists
-Requires XML}
+\title{transxchange_xml_load}
 \usage{
 transxchange_xml_load(file_name)
 }
 \description{
 A basic function to load an xml file and split it into
-the component lists
+the component lists.
 Requires XML
 }

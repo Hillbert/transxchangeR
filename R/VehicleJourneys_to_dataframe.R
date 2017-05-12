@@ -1,3 +1,5 @@
+#' VehicleJourneys_to_dataframe
+#'
 #' A basic function to get departure time and operating times for each vehicle journey
 #'
 #' Requires XML
@@ -14,15 +16,15 @@ for(v in VehicleJourneys){
   journey_ref<-v$VehicleJourneyRef
   regular_operation<-names(v$OperatingProfile$RegularDayType$DaysOfWeek)
   non_operation<-paste(names(v$OperatingProfile$BankHolidayOperation$DaysOfNonOperation),collapse='|')
-  
+
   if(is.null(dep_time)){dep_time<-NA}
   if(is.null(journey_id)){journey_id<-NA}
   if(is.null(private_code)){private_code<-NA}
   if(is.null(regular_operation)){regular_operation<-NA}
   if(is.null(non_operation)){non_operation<-NA}
   if(is.null(journey_ref)){journey_ref<-NA}
-  
-  
+
+
   #journey_ref<-v$JourneyPatternSectionRefs
   vehicles<-rbind(vehicles,c(dep_time,journey_id,journey_ref,private_code,regular_operation,non_operation))
 #if(length(vehicles[,1])==2){break()}

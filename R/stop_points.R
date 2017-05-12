@@ -1,4 +1,7 @@
-#' A basic function to convert the stop point list to a data frame
+#' stop_point_load
+#'
+#' A basic function to convert the stop point list to a data frame.
+#' GPS data can be derived from the master Naptan list
 #' @export
 #'
 

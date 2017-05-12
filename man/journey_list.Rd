@@ -2,10 +2,10 @@
 % Please edit documentation in R/journey_list.R
 \name{journey_list}
 \alias{journey_list}
-\title{create the journey list}
+\title{journey_list}
 \usage{
 journey_list(JourneyPatternSections)
 }
 \description{
-create the journey list
+Create the journey list with each journey named by the JourneyPatternSection id.
 }

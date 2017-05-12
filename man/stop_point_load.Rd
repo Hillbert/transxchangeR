@@ -2,10 +2,11 @@
 % Please edit documentation in R/stop_points.R
 \name{stop_point_load}
 \alias{stop_point_load}
-\title{A basic function to convert the stop point list to a data frame}
+\title{stop_point_load}
 \usage{
 stop_point_load(StopPoints)
 }
 \description{
-A basic function to convert the stop point list to a data frame
+A basic function to convert the stop point list to a data frame.
+GPS data can be derived from the master Naptan list
 }

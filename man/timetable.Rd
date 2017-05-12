@@ -2,10 +2,14 @@
 % Please edit documentation in R/timetables_from_vehicles_journeys.R
 \name{timetable}
 \alias{timetable}
-\title{Construct full timings}
+\title{timetable}
 \usage{
 timetable(vehicles, journeys, services)
 }
 \description{
-Requires XML
+Construct full timings
+}
+\details{
+The timetable constructed is a list of lists with the first three elements containing information
+and the fourth element containing the actual timetable
 }

@@ -2,10 +2,13 @@
 % Please edit documentation in R/VehicleJourneys_to_dataframe.R
 \name{VehicleJourneys_to_dataframe}
 \alias{VehicleJourneys_to_dataframe}
-\title{A basic function to get departure time and operating times for each vehicle journey}
+\title{VehicleJourneys_to_dataframe}
 \usage{
 VehicleJourneys_to_dataframe(VehicleJourneys)
 }
 \description{
+A basic function to get departure time and operating times for each vehicle journey
+}
+\details{
 Requires XML
 }

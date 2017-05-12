@@ -2,10 +2,11 @@
 % Please edit documentation in R/services_lookup.R
 \name{services_lookup}
 \alias{services_lookup}
-\title{services}
+\title{Services}
 \usage{
 services_lookup(Services)
 }
 \description{
-Requires XML
+Creates a dataframe to match JourneyPatternRef with JourneyPatternid
+For some files there are multiple JourneyPatternRefs for each JourneyPatternid so they are iterated over
 }
